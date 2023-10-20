@@ -1,0 +1,151 @@
+.head-main {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/head-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-coupon {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 20px;
+  row-gap: 20px;
+  width: 450px;
+}
+
+.shop-coupon div {
+  width: 50%;
+  text-align: center;
+  font-weight: 800;
+}
+
+.shop-coupon h1 {
+  font-weight: 700;
+}
+.shop-coupon input {
+  width: 90%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.shop-coupon button {
+  width: 30%;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 600;
+  background-color: #212529;
+  color: white;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.image-div {
+  height: 800px;
+  width: 100%;
+}
+
+.section1 {
+  padding-top: 20px;
+  height: 4000px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("./images/homebackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hp-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  background-image: url("./images/shopping.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 30px;
+}
+
+.hp-section2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: rgba(255, 255, 255, 0.656);
+  border-radius: 20px;
+  width: 65%;
+  padding: 50px;
+}
+
+.hp-section2 > div > div {
+  font-size: 25px;
+  width: 80%;
+  text-align: center;
+  color: black;
+  /* width: 0%; */
+}
+
+.hp-section3 {
+  background-image: none;
+}
+
+.hp-section3 > div {
+  background-color: rgb(170, 154, 131);
+}
+
+.hp-section3 > div > div {
+  font-size: 13px;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.hp-section4 button {
+  background-color: #0069d9cf;
+  padding: 7px 15px;
+  color: white;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.hp-section4 img {
+  height: 150px;
+}
+
+@media screen and (max-width: 780px) {
+  .shop-coupon {
+    width: 90%;
+  }
+  .hp-section2 > div {
+    width: 100%;
+  }
+  .login-container {
+    width: 90% !important;
+  }
+  .hp-section-two div {
+    font-size: 15px !important;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

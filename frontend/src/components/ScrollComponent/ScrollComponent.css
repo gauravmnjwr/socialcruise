@@ -1,0 +1,39 @@
+.image-div {
+  height: 800px;
+  width: 100%;
+}
+
+.section1 {
+  padding-top: 20px;
+  height: 3500px;
+  padding-top: 200px;
+}
+
+p {
+  overflow-y: auto;
+  position: sticky;
+  top: 20%;
+  left: 10%;
+}
+
+.p-display {
+  font-size: 3vw;
+  height: 100%;
+}
+
+.p-display p {
+  width: 60%;
+}
+
+.p-display span {
+  transition: opacity 0.2s linear;
+  font-weight: 600;
+  color: white;
+  opacity: 0.1;
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    /* left: 60%; */
+  }
+}
