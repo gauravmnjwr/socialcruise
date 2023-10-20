@@ -7,8 +7,16 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
+import { useEffect } from "react";
+import axios from "axios";
 
 function App() {
+  const startServer = async () => {
+    await axios.get("/");
+  };
+  useEffect(() => {
+    startServer();
+  }, []);
   return (
     <div className="App">
       <Router>
